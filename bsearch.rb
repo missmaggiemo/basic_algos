@@ -1,3 +1,4 @@
+# binary search
 def bsearch(array, target)
   return nil if array.empty?
 
