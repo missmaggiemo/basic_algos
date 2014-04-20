@@ -2,4 +2,18 @@
 
 I created this repo to store my implementations of common algorithms.
 
+This repo includes:
+
+* binary search
+
+* deep duplication of an array
+
+* recursive factorial
+
+* recursive fibonacci
+
+* merge sort
+
+* bubble sort
+
 Ruby version 2.0.0.
