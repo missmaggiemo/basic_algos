@@ -1,8 +1,9 @@
+# node class for creating trees
 class TreeNode
 
   attr_accessor :parent, :children, :value
 
-  def initialize(value, name=nil, parent=nil, children=[])
+  def initialize(value, name = nil, parent = nil, children = [])
     @name = name
     @value = value
     @parent = parent
@@ -15,13 +16,13 @@ class TreeNode
 
   def remove_node(child_node)
     child_node.parent = nil
-    self.children.select! {|child| !child.parent.nil?} # remove child node
+    children.select! { |child| !child.parent.nil? } # remove child node
   end
 
   def add_node(child_node)
     child_node.parent = nil # remove child node from prev parent
     child_node.parent = self # set child's parent node to new node
-    self.children << child_node # add child to parent node's children
+    children << child_node # add child to parent node's children
   end
 
   def path
@@ -35,7 +36,5 @@ class TreeNode
       queue << first_in_queue.parent
     end
     path_list.reverse
-
   end
-
 end
