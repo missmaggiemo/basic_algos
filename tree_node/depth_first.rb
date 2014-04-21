@@ -1,6 +1,6 @@
 require_relative 'tree_node_class'
 
-# monkeypatch TreeNode
+# monkeypatch TreeNode to include a depth-first search method
 class TreeNode
   def dfs(target_val)
     return self if self.value == target_val

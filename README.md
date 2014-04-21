@@ -16,4 +16,10 @@ This repo includes:
 
 * bubble sort
 
+* quick sort
+
+* all subsets of an array
+
+* tree_node-- a folder with a node class and tree search algorithms
+
 Ruby version 2.0.0.

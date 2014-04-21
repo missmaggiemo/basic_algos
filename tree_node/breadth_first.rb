@@ -1,6 +1,6 @@
 require_relative 'tree_node_class'
 
-# monkeypatch TreeNode
+# monkeypatch TreeNode to include a breadth-first search method
 class TreeNode
   def bfs(target_val, queue = [])
     return self if self.value == target_val

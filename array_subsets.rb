@@ -1,3 +1,4 @@
+# all subsets of an array
 def subsets(arr)
   return [arr] if arr.empty?
 
