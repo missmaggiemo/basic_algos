@@ -1,14 +1,11 @@
 
 def merge_sort(array)
-  if array.length <= 1
-    return array
-  end
+  return array if array.length <= 1
 
-  mid = array.length/2
+  mid = array.length / 2
   left = array[0..mid]
-  right = array[mid+1..-1]
+  right = array[(mid + 1)..-1]
   merge(merge_sort(left), merge_sort(right))
-
 end
 
 def merge(arr1, arr2)
@@ -23,5 +20,4 @@ def merge(arr1, arr2)
   end
 
   solution_array + arr1 + arr2
-
 end

@@ -1,6 +1,5 @@
 # node class for creating trees
 class TreeNode
-
   attr_accessor :parent, :children, :value
 
   def initialize(value, name = nil, parent = nil, children = [])

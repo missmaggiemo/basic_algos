@@ -5,5 +5,3 @@ def fibo_arr(n)
   prev = fibo_arr(n - 1)
   prev << prev[-1] + prev[-2]
 end
-
-
