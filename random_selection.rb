@@ -1,4 +1,4 @@
-# random selection for finding the median
+# random selection of pivot for finding the median
 
 def r_select(array, order_i)
   return array[0] if array.length == 1
