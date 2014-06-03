@@ -1,15 +1,5 @@
 # this implementation of quicksort also couunts the comparisons that the algorithm makes as it swaps elements
 
-# choose the first item in the array every time
-# def choose_pivot(array)
-#   0
-# end
-
-# choose the last item in the array, every time
-# def choose_pivot(array)
-#   array.length - 1
-# end
-
 # choose the median of three elements
 def choose_pivot(array)
   a, b, c = array[0], array[array.length / 2], array[-1]

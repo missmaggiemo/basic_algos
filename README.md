@@ -22,6 +22,8 @@ This repo includes:
 
 * Karger's algorithm [wiki](http://en.wikipedia.org/wiki/Karger's_algorithm)
 
+* selection algorithm [wiki](http://en.wikipedia.org/wiki/Selection_algorithm)-- both random and deteriminstic
+
 * tree_node-- a folder with a node class and tree search algorithms
 
 Ruby version 2.0.0.
