@@ -20,6 +20,8 @@ This repo includes:
 
 * all subsets of an array
 
+* Karger's algorithm [wiki](http://en.wikipedia.org/wiki/Karger's_algorithm)
+
 * tree_node-- a folder with a node class and tree search algorithms
 
 Ruby version 2.0.0.
